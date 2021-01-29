@@ -2,9 +2,9 @@
   "name": "rs",
   "version": "1.0.0",
   "description": "App NodeJS, ExpressJS, MySQL",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/lechatgraphique/rs/issues"
   },
-  "homepage": "https://github.com/lechatgraphique/rs#readme"
+  "homepage": "https://github.com/lechatgraphique/rs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
